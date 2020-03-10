@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS TBL_EMPLOYEES;
+  
+CREATE TABLE EMPLOYEES (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  designation VARCHAR(250) NOT NULL,
+  location VARCHAR(250) NOT NULL,
+  time VARCHAR(250) NOT NULL,
+);
+
+INSERT INTO EMPLOYEES (name, designation, location,time) VALUES
+  ('Lokesh', 'System analyst', 'Hyderabad','09.15 AM'),
+  ('Teja', 'Software Engineer', 'Chennai','08.10 AM');
