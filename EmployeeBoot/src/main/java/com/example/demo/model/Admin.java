@@ -14,31 +14,35 @@ public class Admin {
 	@GeneratedValue
 	private int id;
 	
-	@Column(name="firstIn")
-	private String firstIn;
+	@Column(name="firstin")
+	private String firstin;
 	
-	@Column(name="lastOut")
-	private String lastOut;
-	
+	@Column(name="lastout")
+	private String lastout;
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getFirstIn() {
-		return firstIn;
+
+	public String getFirstin() {
+		return firstin;
 	}
-	public void setFirstIn(String firstIn) {
-		this.firstIn = firstIn;
+
+	public void setFirstin(String firstin) {
+		this.firstin = firstin;
 	}
-	public String getLastOut() {
-		return lastOut;
+
+	public String getLastout() {
+		return lastout;
 	}
-	public void setLastOut(String lastOut) {
-		this.lastOut = lastOut;
+
+	public void setLastout(String lastout) {
+		this.lastout = lastout;
 	}
 	
-
 	
 }
